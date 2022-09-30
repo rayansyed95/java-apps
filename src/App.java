@@ -1,9 +1,9 @@
 import helpers.ConsoleColours;
-import helpers."inputReader";
+import helpers.InputReader;
 
 public class App 
 {
-    static String myname;
+    static String myName;
     public static void main(String[] args) throws Exception
     {
         System.out.println(ConsoleColours.ANSI_BRIGHT_BG_PURPLE);
@@ -13,7 +13,7 @@ public class App
         System.out.println("CO452 Programming Concepts 2022/23");
         System.out.println("==================================");
         System.out.println();
-        "myName" = InputReader.getString("Please enter your name");
+        myName = InputReader.getString("Please enter your name");
         System.out.println("Hello" + "myName");
         System.out.println();
 
