@@ -15,7 +15,7 @@ public class Week02
         System.out.println();
         System.out.println("  Week 2 Java Selection & Iteration ");
         System.out.println();
-        System.out.println(" by Nicholas Day and Derek Peacock");
+        System.out.println(" by Rayan Syed ");
         System.out.println();
 
         do7timestable();
